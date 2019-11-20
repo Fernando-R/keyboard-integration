@@ -1,13 +1,35 @@
 {
   "name": "keyboard-integration",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A c++ library to easily trigger keyboard events.",
   "main": "index.js",
+  "browser": "index.js",
   "scripts": {
+    "compile": "node-gyp configure build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fernando-R/keyboard-integration.git"
+  },
+  "keywords": [
+    "keyboard",
+    "key",
+    "teclado"
+  ],
+  "bugs": {
+    "url": "https://github.com/Fernando-R/keyboard-integration/issues"
+  },
+  "homepage": "https://github.com/Fernando-R/keyboard-integration",
   "author": "Fernando Ribeiro da Silva",
+  "contributors": [
+    { "name" : "Murillo Oliveira Felix da Silva "
+      , "email" : "murillo.felix1511@gmail.com"
+      , "url" : "https://www.linkedin.com/in/murillo-oliveira-felix-59a123196/"
+    }
+  ],
   "license": "",
+  
   "dependencies": {
     "node-gyp": "^6.0.1"
   }
