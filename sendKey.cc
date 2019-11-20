@@ -35,17 +35,12 @@ void KeyUp(const FunctionCallbackInfo<Value>& args) {
     v8::Isolate* isolate = args.GetIsolate(); 
     v8::String::Utf8Value str(isolate, args[0]);
     std::string cppStr(*str);
-        
-    cout << cppStr << endl;
-    cout << "UP" << endl;
        
     INPUT input;
     
     int key; 
 
     std::stringstream stri;
-    stri << cppStr;
-    stri >> std::hex >>     key;
     
     memset(&input,0,sizeof(input));
     input.type=INPUT_KEYBOARD;
