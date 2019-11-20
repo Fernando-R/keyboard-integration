@@ -12,9 +12,6 @@ void KeyDown(const FunctionCallbackInfo<Value>& args) {
     v8::Isolate* isolate = args.GetIsolate(); 
     v8::String::Utf8Value str(isolate, args[0]);
     std::string cppStr(*str);
-        
-    cout << cppStr << endl;
-    cout << "DOWN" << endl;
     
     INPUT input;
 
