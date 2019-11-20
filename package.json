@@ -1,0 +1,14 @@
+{
+  "name": "keyboard-integration",
+  "version": "0.0.2",
+  "description": "A c++ library to easily trigger keyboard events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Ribeiro da Silva",
+  "license": "",
+  "dependencies": {
+    "node-gyp": "^6.0.1"
+  }
+}
