@@ -31,6 +31,6 @@
   "license": "",
   
   "dependencies": {
-    "node-gyp": "^6.0.1"
+    "node-gyp": "^9.0.0"
   }
 }
